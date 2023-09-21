@@ -124,5 +124,42 @@
         </div>
       </div>
     </div>
+    <script>
+      // Função para redirecionar para a página correspondente
+      function redirecionarParaPagina(pagina) {
+        window.location.href = pagina;
+      }
+    
+      // Mapeamento dos elementos clicáveis e suas páginas correspondentes
+      const elementosClicaveis = {
+
+        'btn-text-3': './curriculos-page/alex.html', 
+        'ellipse-3': './curriculos-page/alex.html',
+        'ellipse': './curriculos-page/laise.html',
+        'laise': './curriculos-page/laise.html',
+        'btn-text-2': './curriculos-page/laise.html',
+        'button-md-2': './curriculos-page/samila.html',
+        'button-md-4': './curriculos-page/claudio.html',
+        'button-md-5': './curriculos-page/gabriel.html',
+        'ellipse-2': './curriculos-page/claudio.html',
+        'claudio': './curriculos-page/claudio.html',
+        'ellipse-4': './curriculos-page/samila.html',
+        'ellipse-5': './curriculos-page/gabriel.html',
+        'alex': './curriculos-page/alex.html',
+        'gabriel': './curriculos-page/gabriel.html',
+        'samila': './curriculos-page/samila.html',
+      };
+    
+      // Adiciona um evento de clique a cada elemento clicável
+      for (const elementoClasse in elementosClicaveis) {
+        const elementos = document.querySelectorAll(`.${elementoClasse}`);
+        elementos.forEach(function(elemento) {
+          elemento.addEventListener('click', function() {
+            redirecionarParaPagina(elementosClicaveis[elementoClasse]);
+          });
+        });
+      }
+    </script>
+    
   </body>
 </html>
