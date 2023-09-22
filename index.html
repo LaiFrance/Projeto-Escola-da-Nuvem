@@ -18,13 +18,13 @@
                   <div class="div"></div>
                   <div class="li-2"></div>
                 </div>
-                <div class="text-wrapper">SOBRE</div>
-                <div class="text-wrapper-2">OBJETIVO</div>
-                <div class="text-wrapper-3">TECNOLOGIAS</div>
-                <div class="text-wrapper-4">HOME</div>
-              </div>
-              <div class="text-wrapper-5">PROPOSTA</div>
-              <div class="text-wrapper-6">ARQUITETURA</div>
+                <div><a href="#SOBRE"  class="text-wrapper">SOBRE</a></div>
+                <div><a href="#OBJETIVO"  class="text-wrapper-2">OBJETIVO</a></div>
+                <div><a href="#TECNOLOGIAS"  class="text-wrapper-3">TECNOLOGIAS</a></div>
+                <div><a href="#HOME"  class="text-wrapper-4">HOME</a></div>
+              </div> 
+              <div><a href="#PROPOSTA"  class="text-wrapper-5">PROPOSTA</a></div>
+              <div><a href="#ARQUITETURA"  class="text-wrapper-6">ARQUITETURA</a></div>
             </div>
           </div>
           <div class="container-fluid">
@@ -45,7 +45,7 @@
           <img class="img" src="img/9814-1.png" />
         </div>
       </div>
-      <div class="sobrenos">
+      <div class="sobrenos" id="SOBRE">
         <div class="container-sobrenos">
           <img class="ellipse" src="img/ellipse-29.png" />
           <img class="ellipse-2" src="img/ellipse-30-2.png" />
@@ -76,10 +76,10 @@
           <div class="titulo">Sobre nós</div>
         </div>
       </div>
-      <img class="img-2" src="img/objetivo.png" />
-      <img class="img-2" src="img/tecnologias-container.png" />
-      <img class="img-2" src="img/arquitetura-container.png" />
-      <img class="img-2" src="img/proposta-container.png" />
+      <img class="img-2" src="img/objetivo.png" id="OBJETIVO"/>
+      <img class="img-2" src="img/tecnologias-container.png" id="TECNOLOGIAS"/>
+      <img class="img-2" src="img/arquitetura-container.png" id="ARQUITETURA"/>
+      <img class="img-2" src="img/proposta-container.png" id="PROPOSTA"/>
       <div class="escola-container">
         <div class="paragraph">
           <div class="paragraph-2">Daniel</div>
@@ -133,21 +133,21 @@
       // Mapeamento dos elementos clicáveis e suas páginas correspondentes
       const elementosClicaveis = {
 
-        'btn-text-3': './curriculos-page/alex.html', 
-        'ellipse-3': './curriculos-page/alex.html',
-        'ellipse': './curriculos-page/laise.html',
-        'laise': './curriculos-page/laise.html',
-        'btn-text-2': './curriculos-page/laise.html',
-        'button-md-2': './curriculos-page/samila.html',
-        'button-md-4': './curriculos-page/claudio.html',
-        'button-md-5': './curriculos-page/gabriel.html',
-        'ellipse-2': './curriculos-page/claudio.html',
-        'claudio': './curriculos-page/claudio.html',
-        'ellipse-4': './curriculos-page/samila.html',
-        'ellipse-5': './curriculos-page/gabriel.html',
-        'alex': './curriculos-page/alex.html',
-        'gabriel': './curriculos-page/gabriel.html',
-        'samila': './curriculos-page/samila.html',
+        'btn-text-3': './curriculos-page/alex/alex.html', 
+        'ellipse-3': './curriculos-page/alex/alex.html',
+        'ellipse': './curriculos-page/laise/laise.html',
+        'laise': './curriculos-page/laise/laise.html',
+        'btn-text-2': './curriculos-page/laise/laise.html',
+        'button-md-2': './curriculos-page/samila/samila.html',
+        'button-md-4': './curriculos-page/claudio/claudio.html',
+        'button-md-5': './curriculos-page/gabriel/gabriel.html',
+        'ellipse-2': './curriculos-page/claudio/claudio.html',
+        'claudio': './curriculos-page/claudio/claudio.html',
+        'ellipse-4': './curriculos-page/samila/samila.html',
+        'ellipse-5': './curriculos-page/gabriel/gabriel.html',
+        'alex': './curriculos-page/alex/alex.html',
+        'gabriel': './curriculos-page/gabriel/gabriel.html',
+        'samila': './curriculos-page/samila/samila.html',
       };
     
       // Adiciona um evento de clique a cada elemento clicável

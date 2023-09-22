@@ -42,7 +42,7 @@
   width: 732px;
   height: 58px;
   top: 10px;
-  left: 252px;
+  left: 339px;
   overflow: hidden;
 }
 
@@ -267,7 +267,7 @@
   width: 542px;
   top: 260px;
   left: 186px;
-  font-family: "Roboto", Helvetica;
+  font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
   color: var(--light-text-color);
   font-size: 58px;
@@ -287,8 +287,8 @@
 .landing-page .img {
   position: absolute;
   width: 723px;
-  height: 483px;
-  top: 288px;
+  height: 478px;
+  top: 293px;
   left: 544px;
   object-fit: cover;
 }
@@ -296,20 +296,20 @@
 .landing-page .sobrenos {
   position: relative;
   width: 1310px;
-  height: 1300px;
+  height: 1297px;
   background-color: var(--light-background-color);
 }
 
 .landing-page .container-sobrenos {
   position: relative;
   width: 1186px;
-  height: 1033px;
+  height: 1032px;
   top: 33px;
   left: 88px;
 }
 
 .landing-page .ellipse {
-  top: 586px;
+  top: 585px;
   left: 65px;
   position: absolute;
   width: 304px;
@@ -317,7 +317,7 @@
 }
 
 .landing-page .ellipse-2 {
-  top: 135px;
+  top: 134px;
   left: 434px;
   position: absolute;
   width: 304px;
@@ -325,7 +325,7 @@
 }
 
 .landing-page .ellipse-3 {
-  top: 135px;
+  top: 134px;
   left: 65px;
   position: absolute;
   width: 304px;
@@ -333,7 +333,7 @@
 }
 
 .landing-page .ellipse-4 {
-  top: 597px;
+  top: 596px;
   left: 429px;
   position: absolute;
   width: 304px;
@@ -341,7 +341,7 @@
 }
 
 .landing-page .ellipse-5 {
-  top: 135px;
+  top: 134px;
   left: 803px;
   position: absolute;
   width: 304px;
@@ -352,7 +352,7 @@
   position: absolute;
   width: 57px;
   height: 53px;
-  top: 980px;
+  top: 979px;
   left: 110px;
 }
 
@@ -360,7 +360,7 @@
   position: absolute;
   width: 56px;
   height: 50px;
-  top: 981px;
+  top: 980px;
   left: 50px;
 }
 
@@ -368,7 +368,7 @@
   display: flex;
   width: 170px;
   position: absolute;
-  top: 980px;
+  top: 979px;
   left: 174px;
   background-color: var(--primary-color);
   box-shadow: 0px 4px 4px #00000040;
@@ -401,7 +401,7 @@
   position: absolute;
   width: 57px;
   height: 53px;
-  top: 977px;
+  top: 976px;
   left: 486px;
 }
 
@@ -409,7 +409,7 @@
   position: absolute;
   width: 56px;
   height: 50px;
-  top: 978px;
+  top: 977px;
   left: 427px;
 }
 
@@ -418,7 +418,7 @@
   width: 172px;
   height: 53px;
   position: absolute;
-  top: 977px;
+  top: 975px;
   left: 551px;
   background-color: var(--primary-color);
   box-shadow: 0px 4px 4px #00000040;
@@ -451,7 +451,7 @@
   position: absolute;
   width: 57px;
   height: 53px;
-  top: 513px;
+  top: 512px;
   left: 125px;
 }
 
@@ -459,7 +459,7 @@
   position: absolute;
   width: 56px;
   height: 50px;
-  top: 514px;
+  top: 513px;
   left: 65px;
 }
 
@@ -468,7 +468,7 @@
   width: 172px;
   height: 53px;
   position: absolute;
-  top: 512px;
+  top: 511px;
   left: 190px;
   background-color: var(--primary-color);
   box-shadow: 0px 4px 4px #00000040;
@@ -484,7 +484,7 @@
   position: absolute;
   width: 57px;
   height: 53px;
-  top: 513px;
+  top: 512px;
   left: 486px;
 }
 
@@ -492,7 +492,7 @@
   position: absolute;
   width: 56px;
   height: 50px;
-  top: 514px;
+  top: 513px;
   left: 427px;
 }
 
@@ -501,7 +501,7 @@
   width: 172px;
   height: 53px;
   position: absolute;
-  top: 512px;
+  top: 511px;
   left: 551px;
   background-color: var(--primary-color);
   box-shadow: 0px 4px 4px #00000040;
@@ -517,7 +517,7 @@
   position: absolute;
   width: 57px;
   height: 53px;
-  top: 513px;
+  top: 512px;
   left: 872px;
 }
 
@@ -525,7 +525,7 @@
   position: absolute;
   width: 56px;
   height: 50px;
-  top: 514px;
+  top: 513px;
   left: 813px;
 }
 
@@ -534,7 +534,7 @@
   width: 172px;
   height: 53px;
   position: absolute;
-  top: 512px;
+  top: 511px;
   left: 937px;
   background-color: var(--primary-color);
   box-shadow: 0px 4px 4px #00000040;
@@ -548,9 +548,9 @@
 
 .landing-page .samila {
   position: absolute;
-  top: 914px;
+  top: 913px;
   left: 453px;
-  font-family: "Montserrat Alternates", Helvetica;
+  font-family: "Montserrat Alternates-Bold", Helvetica;
   font-weight: 700;
   color: var(--second-text-color);
   font-size: 16px;
@@ -561,9 +561,9 @@
 
 .landing-page .laise {
   position: absolute;
-  top: 905px;
+  top: 904px;
   left: 88px;
-  font-family: "Montserrat Alternates", Helvetica;
+  font-family: "Montserrat Alternates-Bold", Helvetica;
   font-weight: 700;
   color: var(--second-text-color);
   font-size: 16px;
@@ -576,7 +576,7 @@
   position: absolute;
   top: 445px;
   left: 811px;
-  font-family: "Montserrat Alternates", Helvetica;
+  font-family: "Montserrat Alternates-Bold", Helvetica;
   font-weight: 700;
   color: var(--second-text-color);
   font-size: 16px;
@@ -587,9 +587,9 @@
 
 .landing-page .claudio {
   position: absolute;
-  top: 442px;
-  left: 502px;
-  font-family: "Montserrat Alternates", Helvetica;
+  top: 441px;
+  left: 438px;
+  font-family: "Montserrat Alternates-Bold", Helvetica;
   font-weight: 700;
   color: var(--second-text-color);
   font-size: 16px;
@@ -600,9 +600,9 @@
 
 .landing-page .alex {
   position: absolute;
-  top: 446px;
+  top: 445px;
   left: 117px;
-  font-family: "Montserrat Alternates", Helvetica;
+  font-family: "Montserrat Alternates-Bold", Helvetica;
   font-weight: 700;
   color: var(--second-text-color);
   font-size: 16px;
@@ -616,7 +616,7 @@
   width: 1172px;
   top: 62px;
   left: 0;
-  font-family: "Roboto", Helvetica;
+  font-family: "Roboto-Light", Helvetica;
   font-weight: 300;
   color: var(--second-text-color);
   font-size: 36px;
@@ -630,7 +630,7 @@
   width: 268px;
   top: 0;
   left: 451px;
-  font-family: "Montserrat", Helvetica;
+  font-family: "Montserrat-Regular", Helvetica;
   font-weight: 400;
   color: var(--text-color);
   font-size: 40px;
@@ -665,7 +665,7 @@
   width: 173px;
   top: -1px;
   left: 0;
-  font-family: "Montserrat", Helvetica;
+  font-family: "Montserrat-Regular", Helvetica;
   font-weight: 400;
   color: var(--second-text-color);
   font-size: 25px;
@@ -679,7 +679,7 @@
   width: 173px;
   top: -2px;
   left: 258px;
-  font-family: "Montserrat", Helvetica;
+  font-family: "Montserrat-Regular", Helvetica;
   font-weight: 400;
   color: var(--second-text-color);
   font-size: 25px;
@@ -750,7 +750,7 @@
   position: relative;
   width: 225px;
   height: 40px;
-  font-family: "Roboto", Helvetica;
+  font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
   color: var(--second-text-color);
   font-size: 14px;
@@ -783,7 +783,7 @@
   width: 346px;
   height: 50px;
   margin-top: -1px;
-  font-family: "Roboto", Helvetica;
+  font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
   color: var(--text-color);
   font-size: 40px;
@@ -796,7 +796,7 @@
   position: relative;
   width: 469px;
   height: 40px;
-  font-family: "Roboto", Helvetica;
+  font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
   color: var(--second-text-color);
   font-size: 20px;
@@ -853,7 +853,7 @@
   width: 675px;
   height: 50px;
   margin-top: -1px;
-  font-family: "Roboto", Helvetica;
+  font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
   color: var(--light-text-color);
   font-size: 40px;
