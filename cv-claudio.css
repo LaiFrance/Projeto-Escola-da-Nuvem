@@ -1,0 +1,400 @@
+.features-ui-ebook {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.features-ui-ebook .div {
+  background-color: var(--light-background-color);
+  width: 1306px;
+  height: 2340px;
+  position: relative;
+}
+
+.features-ui-ebook .header-dark-app {
+  position: absolute;
+  width: 1306px;
+  height: 368px;
+  top: 0;
+  left: 0;
+}
+
+.features-ui-ebook .overlap {
+  position: absolute;
+  width: 1060px;
+  height: 197px;
+  top: 719px;
+  left: 158px;
+}
+
+.features-ui-ebook .col-md {
+  display: flex;
+  flex-direction: column;
+  width: 542px;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+
+.features-ui-ebook .headline {
+  position: relative;
+  width: 335px;
+  height: 90px;
+  margin-top: -1px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--light-text-color);
+  font-size: 58px;
+  letter-spacing: 0.2px;
+  line-height: 80px;
+  white-space: nowrap;
+}
+
+.features-ui-ebook .cta {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.features-ui-ebook .button-md {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 40px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #51bfa6;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.features-ui-ebook .btn-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--btn-text-font-family);
+  font-weight: var(--btn-text-font-weight);
+  color: var(--light-text-color);
+  font-size: var(--btn-text-font-size);
+  text-align: center;
+  letter-spacing: var(--btn-text-letter-spacing);
+  line-height: var(--btn-text-line-height);
+  white-space: nowrap;
+  font-style: var(--btn-text-font-style);
+}
+
+.features-ui-ebook .section-title {
+  width: 265px;
+  top: 4px;
+  left: 21px;
+  color: var(--text-color);
+  font-size: 40px;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.features-ui-ebook .paragraph {
+  width: 435px;
+  top: 49px;
+  left: 21px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--second-text-color);
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+
+.features-ui-ebook .h-section-title {
+  position: absolute;
+  width: 1060px;
+  top: 159px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--muted-color);
+  font-size: 30px;
+  letter-spacing: 0.2px;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.features-ui-ebook .text-wrapper {
+  width: 511px;
+  top: 11px;
+  left: 519px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--second-text-color);
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+
+.features-ui-ebook .ellipse {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 408px;
+  left: 141px;
+}
+
+.features-ui-ebook .overlap-group {
+  position: absolute;
+  width: 1055px;
+  height: 222px;
+  top: 946px;
+  left: 163px;
+}
+
+.features-ui-ebook .p {
+  width: 1055px;
+  top: 0;
+  left: 0;
+  font-family: "Roboto-Light", Helvetica;
+  font-weight: 300;
+  color: var(--second-text-color);
+  font-size: 24px;
+  position: absolute;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+
+.features-ui-ebook .span {
+  font-family: "Roboto-Light", Helvetica;
+  font-weight: 300;
+  color: #727272;
+  font-size: 24px;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+
+.features-ui-ebook .text-wrapper-2 {
+  font-size: 25px;
+}
+
+.features-ui-ebook .overlap-2 {
+  position: absolute;
+  width: 1060px;
+  height: 63px;
+  top: 1219px;
+  left: 159px;
+}
+
+.features-ui-ebook .section-title-2 {
+  width: 455px;
+  top: 0;
+  left: 0;
+  color: var(--text-color);
+  font-size: 30px;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.features-ui-ebook .section-title-3 {
+  width: 1060px;
+  top: 25px;
+  left: 0;
+  color: var(--muted-color);
+  font-size: 30px;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.features-ui-ebook .overlap-3 {
+  position: absolute;
+  width: 1060px;
+  height: 216px;
+  top: 1286px;
+  left: 159px;
+}
+
+.features-ui-ebook .paragraph-2 {
+  width: 1048px;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+
+.features-ui-ebook .text-wrapper-3 {
+  color: #252b42;
+}
+
+.features-ui-ebook .text-wrapper-4 {
+  color: #727272;
+}
+
+.features-ui-ebook .section-title-4 {
+  width: 455px;
+  top: 153px;
+  left: 0;
+  color: var(--text-color);
+  font-size: 30px;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.features-ui-ebook .section-title-5 {
+  width: 1060px;
+  top: 178px;
+  left: 0;
+  color: var(--muted-color);
+  font-size: 30px;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.features-ui-ebook .paragraph-3 {
+  width: 1048px;
+  top: 1506px;
+  left: 159px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--second-text-color);
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+
+.features-ui-ebook .overlap-4 {
+  position: absolute;
+  width: 1060px;
+  height: 63px;
+  top: 1663px;
+  left: 158px;
+}
+
+.features-ui-ebook .paragraph-4 {
+  width: 1061px;
+  top: 1726px;
+  left: 158px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--second-text-color);
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+
+.features-ui-ebook .overlap-5 {
+  position: absolute;
+  width: 1060px;
+  height: 63px;
+  top: 1892px;
+  left: 158px;
+}
+
+.features-ui-ebook .paragraph-5 {
+  width: 1089px;
+  top: 1955px;
+  left: 159px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--second-text-color);
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+
+.features-ui-ebook .overlap-group-2 {
+  position: absolute;
+  width: 1060px;
+  height: 51px;
+  top: 2116px;
+  left: 158px;
+}
+
+.features-ui-ebook .section-title-6 {
+  width: 1060px;
+  top: 13px;
+  left: 0;
+  color: var(--muted-color);
+  font-size: 30px;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.features-ui-ebook .paragraph-6 {
+  width: 1089px;
+  top: 2171px;
+  left: 158px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--second-text-color);
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+
+.features-ui-ebook .btn-text-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 40px;
+  position: absolute;
+  top: 447px;
+  left: 1046px;
+  background-color: #51bfa6;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.features-ui-ebook .btn-text-2 {
+  position: relative;
+  width: 121px;
+  margin-top: -1px;
+  font-family: var(--btn-text-font-family);
+  font-weight: var(--btn-text-font-weight);
+  color: var(--light-text-color);
+  font-size: var(--btn-text-font-size);
+  text-align: center;
+  letter-spacing: var(--btn-text-letter-spacing);
+  line-height: var(--btn-text-line-height);
+  font-style: var(--btn-text-font-style);
+}
